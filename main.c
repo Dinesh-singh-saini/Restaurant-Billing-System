@@ -1,7 +1,6 @@
 #include<stdio.h>
 #include<stdlib.h>
 
-// Function to calculate total bill amount
 float calculate_bill(int quantity, float price) {
     float total = quantity * price;
     if (total >= 1000) {
